@@ -6,20 +6,22 @@
 </script>
 
 <section id="team" class="team section-bg py-5">
-	<div class="container" data-aos="fade-up">
+	<div class="container">
 		<div class="row">
-			<div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+			<div class="text-center mb-4 title">
+				<h1>TEAM</h1>
+			</div>
+			<div class="offset-3 col-lg-6 mt-4 mt-lg-0">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team1} class="img-fluid" alt="" /></div>
 					<div class="member-info">
-						<h4>Febriandy Mandagi</h4>
-						<span>Team Leader Pemeliharaan</span>
-						<p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+						<h4>Bahar Sudrajat</h4>
+						<span>Manager ULPLTD Kotamobagu</span>
 						<div class="social">
-							<a href=""><i class="bi-twitter" /></a>
-							<a href=""><i class="bi-facebook" /></a>
-							<a href=""><i class="bi-instagram" /></a>
-							<a href=""> <i class="bi-whatsapp" /> </a>
+							<a href="/"><i class="bi-twitter" /></a>
+							<a href="/"><i class="bi-facebook" /></a>
+							<a href="/"><i class="bi-instagram" /></a>
+							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
 				</div>
@@ -27,69 +29,65 @@
 		</div>
 
 		<div class="row mt-4">
-			<div class="col-lg-6 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+			<div class="col-lg-6 mt-lg-0" data-aos-delay="200">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team1} class="img-fluid" alt="" /></div>
 					<div class="member-info">
-						<h4>Febriandy Mandagi</h4>
-						<span>Team Leader Pemeliharaan</span>
-						<p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+						<h4>Vecky Pandeirot</h4>
+						<span>Team Leader Operasi</span>
 						<div class="social">
-							<a href=""><i class="bi-twitter" /></a>
-							<a href=""><i class="bi-facebook" /></a>
-							<a href=""><i class="bi-instagram" /></a>
-							<a href=""> <i class="bi-whatsapp" /> </a>
+							<a href="/"><i class="bi-twitter" /></a>
+							<a href="/"><i class="bi-facebook" /></a>
+							<a href="/"><i class="bi-instagram" /></a>
+							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+			<div class="col-lg-6 mt-4 mt-lg-0" data-aos-delay="200">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team1} class="img-fluid" alt="" /></div>
 					<div class="member-info">
 						<h4>Febriandy Mandagi</h4>
 						<span>Team Leader Pemeliharaan</span>
-						<p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
 						<div class="social">
-							<a href=""><i class="bi-twitter" /></a>
-							<a href=""><i class="bi-facebook" /></a>
-							<a href=""><i class="bi-instagram" /></a>
-							<a href=""> <i class="bi-whatsapp" /> </a>
+							<a href="/"><i class="bi-twitter" /></a>
+							<a href="/"><i class="bi-facebook" /></a>
+							<a href="/"><i class="bi-instagram" /></a>
+							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+			<div class="col-lg-6 mt-4" data-aos-delay="300">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team3} class="img-fluid" alt="" /></div>
 					<div class="member-info">
 						<h4>Alan Nuari</h4>
 						<span>Team Leader K3L dan Keamanan</span>
-						<p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
 						<div class="social">
-							<a href=""><i class="bi bi-twitter" /></a>
-							<a href=""><i class="bi-facebook" /></a>
-							<a href=""><i class="bi-instagram" /></a>
-							<a href=""> <i class="bi-whatsapp" /> </a>
+							<a href="/"><i class="bi bi-twitter" /></a>
+							<a href="/"><i class="bi-facebook" /></a>
+							<a href="/"><i class="bi-instagram" /></a>
+							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+			<div class="col-lg-6 mt-4" data-aos-delay="400">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team3} class="img-fluid" alt="" /></div>
 					<div class="member-info">
 						<h4>Asep Kusmiadi</h4>
 						<span>AE Pemeliharaan</span>
-						<p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
 						<div class="social">
-							<a href=""><i class="bi-twitter" /></a>
-							<a href=""><i class="bi-facebook" /></a>
-							<a href=""><i class="bi-instagram" /></a>
-							<a href=""> <i class="bi-whatsapp" /> </a>
+							<a href="/"><i class="bi-twitter" /></a>
+							<a href="/"><i class="bi-facebook" /></a>
+							<a href="/"><i class="bi-instagram" /></a>
+							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
 				</div>
@@ -99,6 +97,15 @@
 </section>
 
 <style>
+	.title h1 {
+		color: #aac548;
+		font-weight: 900;
+	}
+
+	section {
+		background: #fff;
+	}
+
 	.team .member {
 		position: relative;
 		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -128,16 +135,16 @@
 	.team .member h4 {
 		font-weight: 700;
 		margin-bottom: 5px;
-		font-size: 20px;
-		color: #43A6A3;
+		font-size: 30px;
+		color: #43a6a3;
 	}
 
 	.team .member span {
 		display: block;
-		font-size: 15px;
+		font-size: 20px;
 		padding-bottom: 10px;
 		position: relative;
-		font-weight: 500;
+		font-weight: 400;
 	}
 
 	.team .member span::after {
@@ -149,11 +156,6 @@
 		background: #bfe0fd;
 		bottom: 0;
 		left: 0;
-	}
-
-	.team .member p {
-		margin: 10px 0 0 0;
-		font-size: 14px;
 	}
 
 	.team .member .social {
@@ -169,19 +171,19 @@
 		align-items: center;
 		justify-content: center;
 		border-radius: 50px;
-		width: 32px;
-		height: 32px;
+		width: 40px;
+		height: 40px;
 		background: #ecf6fe;
-		color: #43A6A3;
+		color: #43a6a3;
 	}
 
 	.team .member .social a i {
-		font-size: 16px;
+		font-size: 22px;
 		margin: 0 2px;
 	}
 
 	.team .member .social a:hover {
-		background: #43A6A3;
+		background: #43a6a3;
 		color: #fff;
 	}
 

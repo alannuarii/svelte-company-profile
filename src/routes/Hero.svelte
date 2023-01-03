@@ -14,13 +14,13 @@
 			<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
 				<div class="icon-box">
 					<h4 class="title">Kapasitas Terpasang</h4>
-					<p class="description">8000 kW</p>
+					<p class="description">8.000 kW</p>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
 				<div class="icon-box">
 					<h4 class="title">Daya Mampu</h4>
-					<p class="description">6000 kW</p>
+					<p class="description">6.000 kW</p>
 				</div>
 			</div>
 		</div>
@@ -41,6 +41,7 @@
 		z-index: 99;
 		transition: 0.3s;
 		border-radius: 0 0 150px 150px;
+		border-bottom: 20px solid #aac548;
 	}
 
 	#hero:before {
@@ -77,51 +78,9 @@
 		color: #fff;
 	}
 
-	#hero .carousel-control-prev,
-	#hero .carousel-control-next {
-		width: 10%;
-	}
-
-	#hero .carousel-control-next-icon,
-	#hero .carousel-control-prev-icon {
-		background: none;
-		font-size: 48px;
-		line-height: 1;
-		width: auto;
-		height: auto;
-	}
-
-	#hero .btn-get-started {
-		font-family: 'Raleway', sans-serif;
-		font-weight: 500;
-		font-size: 14px;
-		letter-spacing: 1px;
-		display: inline-block;
-		padding: 12px 32px;
-		border-radius: 50px;
-		transition: 0.5s;
-		line-height: 1;
-		margin: 10px;
-		color: #fff;
-		-webkit-animation-delay: 0.8s;
-		animation-delay: 0.8s;
-		border: 2px solid #f6b024;
-	}
-
-	#hero .btn-get-started:hover {
-		background: #f6b024;
-		color: #fff;
-		text-decoration: none;
-	}
-
 	@media (min-width: 1024px) {
 		#hero p {
 			width: 60%;
-		}
-
-		#hero .carousel-control-prev,
-		#hero .carousel-control-next {
-			width: 5%;
 		}
 	}
 
@@ -150,19 +109,7 @@
 		background: #fff;
 		box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
 		transition: all 0.3s ease-in-out;
-		border-radius: 10px;
-	}
-
-	.icon-boxes .icon {
-		margin: 0 auto 20px auto;
-		display: inline-block;
-		text-align: center;
-	}
-
-	.icon-boxes .icon i {
-		font-size: 36px;
-		line-height: 1;
-		color: #f6b024;
+		border-radius: 100px;
 	}
 
 	.icon-boxes .title {

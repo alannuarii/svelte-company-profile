@@ -5,6 +5,9 @@
 <section id="icon-boxes" class="icon-boxes py-5">
 	<div class="container">
 		<div class="row d-flex justify-content-center text-center">
+			<div class="text-center mb-4 title">
+				<h1>PERFORMANCE INDICATORS</h1>
+			</div>
 			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">BPP</h4>
@@ -57,8 +60,16 @@
 	</div>
 </section>
 
-<!-- End Icon Boxes Section -->
 <style>
+	.title h1 {
+		color: #aac548;
+		font-weight: 900;
+	}
+
+	section {
+		background: #fff;
+	}
+
 	.icon-boxes {
 		padding-top: 0;
 		position: relative;
@@ -74,18 +85,6 @@
 		box-shadow: 5px 10px 29px 0 rgba(68, 88, 144, 0.2);
 		transition: all 0.3s ease-in-out;
 		border-radius: 10px;
-	}
-
-	.icon-boxes .icon {
-		margin: 0 auto 20px auto;
-		display: inline-block;
-		text-align: center;
-	}
-
-	.icon-boxes .icon i {
-		font-size: 36px;
-		line-height: 1;
-		color: #f6b024;
 	}
 
 	.icon-boxes .title {
@@ -108,7 +107,7 @@
 		font-weight: 900;
 		line-height: 28px;
 		margin-bottom: 0;
-		color: #43A6A3;
+		color: #43a6a3;
 	}
 
 	.icon-boxes .unit {

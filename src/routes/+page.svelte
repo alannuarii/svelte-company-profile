@@ -26,5 +26,6 @@
 <style>
 	main {
 		overflow-x: hidden;
+		background: rgba(67, 166, 163, 0.1);
 	}
 </style>

@@ -5,25 +5,48 @@
 	import unit4 from '$lib/img/engine/4.jpg';
 	import unit5 from '$lib/img/engine/5.jpg';
 	import unit6 from '$lib/img/engine/6.jpg';
+
+	const units = [unit1, unit2, unit3, unit4, unit5, unit6];
 </script>
 
 <section id="engine" class="position-relative py-5">
+	<div class="text-center mb-4 title">
+		<h1>ENGINES</h1>
+	</div>
 	<div class="d-flex flex-wrap justify-content-center">
-		<img src={unit1} class="img-fluid p-3" alt="" />
-		<img src={unit2} class="img-fluid p-3" alt="" />
-		<img src={unit3} class="img-fluid p-3" alt="" />
-		<img src={unit4} class="img-fluid p-3" alt="" />
-		<img src={unit5} class="img-fluid p-3" alt="" />
-		<img src={unit6} class="img-fluid p-3" alt="" />
+		{#each units as unit}
+			<div class="image position-relative">
+				<img src={unit} class="img-fluid p-3" alt="" />
+				<button
+					class="btn position-absolute bottom-0 start-50 translate-middle-x mb-4 rounded-pill px-4"
+					>Detail</button
+				>
+			</div>
+		{/each}
 	</div>
 </section>
 
 <style>
+	.title h1 {
+		color: #aac548;
+		font-weight: 900;
+	}
 	section {
 		overflow-y: hidden;
+		background: #fff;
+	}
+	.image {
+		width: 30%;
 	}
 	img {
-		width: 30%;
 		border-radius: 30px;
+	}
+	button {
+		border: 2px solid #43a6a3;
+		color: #fff;
+		font-weight: 300;
+	}
+	button:hover {
+		background-color: #43a6a3;
 	}
 </style>
