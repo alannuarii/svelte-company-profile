@@ -7,6 +7,7 @@
 	import unit6 from '$lib/img/engine/6.jpg';
 
 	const units = [unit1, unit2, unit3, unit4, unit5, unit6];
+
 </script>
 
 <section id="engine" class="position-relative py-5">
@@ -14,10 +15,10 @@
 		<h1>ENGINES</h1>
 	</div>
 	<div class="d-flex flex-wrap justify-content-center">
-		{#each units as unit}
+		{#each units as unit, i}
 			<div class="image position-relative">
 				<img src={unit} class="img-fluid p-3" alt="" />
-				<button
+				<button on:click={()=> window.location.href = `/${i + 1}`}
 					class="btn position-absolute bottom-0 start-50 translate-middle-x mb-4 rounded-pill px-4"
 					>Detail</button
 				>
