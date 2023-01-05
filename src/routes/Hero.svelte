@@ -7,6 +7,7 @@
 		<h2>Company <span>Profile</span></h2>
 		<p>PT PLN NUSANTARA POWER ULPLTD KOTAMOBAGU</p>
 	</div>
+	<img src={pnp} class="position-absolute top-0 start-50 translate-middle-x mt-5" alt="" />
 </section>
 <section id="icon-boxes" class="icon-boxes">
 	<div class="container">
@@ -46,12 +47,16 @@
 
 	#hero:before {
 		content: '';
-		background: rgba(67, 166, 163, 0.5);
+		background: rgba(235, 235, 235, 0.3);
 		position: absolute;
 		bottom: 0;
 		top: 0;
 		left: 0;
 		right: 0;
+	}
+	#hero img {
+		width: 20%;
+		z-index: 999;
 	}
 	#hero .carousel-container {
 		display: flex;

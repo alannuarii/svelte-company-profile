@@ -15,7 +15,10 @@
 <main id="main">
 	<!-- ======= Breadcrumbs ======= -->
 	<section id="breadcrumbs" class="breadcrumbs shadow-sm">
-		<div class="container text-end">
+		<div class="container d-flex align-items-center justify-content-between text-end">
+			<a href="/#engine" class="btn"
+				><i class="bi-arrow-left-square" /> <span class="d-none d-lg-inline">Back</span></a
+			>
 			<h2>ULPLTD Kotamobagu Unit {u.id_unit}</h2>
 		</div>
 	</section>
@@ -23,7 +26,7 @@
 
 	<!-- ======= Portfolio Details Section ======= -->
 	<section id="portfolio-details" class="portfolio-details">
-		<div class="container">
+		<div class="container mt-4">
 			<div class="row gy-4">
 				<div class="col-lg-6">
 					<div class="portfolio-details-slider">
@@ -182,8 +185,17 @@
 
 	.breadcrumbs h2 {
 		font-size: 26px;
-		font-weight: 600;
+		font-weight: 700;
 		color: #43a6a3;
+		margin-right: 50px;
+	}
+
+	.breadcrumbs a {
+		font-size: 20px;
+		font-weight: 700;
+		color: #43a6a3;
+		cursor: pointer;
+		text-decoration: none;
 	}
 
 	.portfolio-details {
@@ -192,6 +204,7 @@
 
 	.portfolio-details .accordion h6 {
 		font-weight: 300;
+		font-size: smaller;
 	}
 
 	.portfolio-details .accordion span {
@@ -201,11 +214,19 @@
 
 	.portfolio-details .portfolio-details-slider img {
 		width: 100%;
-		border-radius: 30px;
+		border-radius: 30px 30px 170px 170px;
+		border-bottom: 20px solid #aac548;
 	}
 
 	.portfolio-details .portfolio-info {
 		padding: 0 30px;
 		/* box-shadow: 0px 0 30px rgba(246, 176, 36, 0.08); */
+	}
+
+	@media (max-width: 768px), (max-height: 700px) {
+		.breadcrumbs h2 {
+			font-size: 20px;
+			margin-right: 20px;
+		}
 	}
 </style>

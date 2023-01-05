@@ -7,7 +7,7 @@
 	import unit6 from '$lib/img/engine/6.jpg';
 
 	const units = [unit1, unit2, unit3, unit4, unit5, unit6];
-
+	// on:click={()=> window.location.href = `/${i + 1}`}
 </script>
 
 <section id="engine" class="position-relative py-5">
@@ -18,9 +18,10 @@
 		{#each units as unit, i}
 			<div class="image position-relative">
 				<img src={unit} class="img-fluid p-3" alt="" />
-				<button on:click={()=> window.location.href = `/${i + 1}`}
+				<a
+					href="/{i + 1}"
 					class="btn position-absolute bottom-0 start-50 translate-middle-x mb-4 rounded-pill px-4"
-					>Detail</button
+					>Detail <i class="bi-arrow-right-circle" /></a
 				>
 			</div>
 		{/each}
@@ -42,12 +43,12 @@
 	img {
 		border-radius: 30px;
 	}
-	button {
+	a {
 		border: 2px solid #43a6a3;
 		color: #fff;
 		font-weight: 300;
 	}
-	button:hover {
+	a:hover {
 		background-color: #43a6a3;
 	}
 </style>

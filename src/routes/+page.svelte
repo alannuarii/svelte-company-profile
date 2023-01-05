@@ -1,10 +1,12 @@
 <script>
+	import Sidebar from './Sidebar.svelte';
 	import Hero from './Hero.svelte';
 	import Description from './Description.svelte';
 	import Engine from './Engine.svelte';
 	import Team from './Team.svelte';
 	import Gallery from './Gallery.svelte';
 	import Performance from './Performance.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <svelte:head>
@@ -14,12 +16,14 @@
 
 <main>
 	<div>
+		<Sidebar />
 		<Hero />
 		<Description />
 		<Engine />
 		<Performance />
 		<Team />
 		<Gallery />
+		<Footer />
 	</div>
 </main>
 

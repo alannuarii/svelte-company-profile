@@ -2,7 +2,7 @@
 	import pnp from '$lib/img/pnp.png';
 </script>
 
-<section id="icon-boxes" class="icon-boxes py-5">
+<section id="performance" class="performance py-5">
 	<div class="container">
 		<div class="row d-flex justify-content-center text-center">
 			<div class="text-center mb-4 title">
@@ -70,13 +70,13 @@
 		background: #fff;
 	}
 
-	.icon-boxes {
+	.performance {
 		padding-top: 0;
 		position: relative;
 		z-index: 100;
 	}
 
-	.icon-boxes .icon-box {
+	.performance .icon-box {
 		width: 500px;
 		padding: 40px 30px;
 		position: relative;
@@ -87,13 +87,13 @@
 		border-radius: 10px;
 	}
 
-	.icon-boxes .title {
+	.performance .title {
 		font-weight: 700;
 		margin-bottom: 15px;
 		font-size: 35px;
 	}
 
-	.icon-boxes .length {
+	.performance .length {
 		font-size: 15px;
 		font-weight: 500;
 		font-style: italic;
@@ -102,7 +102,7 @@
 		color: #777777;
 	}
 
-	.icon-boxes .description {
+	.performance .description {
 		font-size: 40px;
 		font-weight: 900;
 		line-height: 28px;
@@ -110,7 +110,7 @@
 		color: #43a6a3;
 	}
 
-	.icon-boxes .unit {
+	.performance .unit {
 		font-size: 20px;
 		font-weight: 400;
 		line-height: 40px;
