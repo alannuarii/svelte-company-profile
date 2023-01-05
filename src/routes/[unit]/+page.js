@@ -1,6 +1,6 @@
 export const load = ({ fetch, params }) => {
 	const fetchData = async (unit) => {
-		const res = await fetch(`http://127.0.0.1:5000/${unit}`);
+		const res = await fetch(`https://apipltdktm.daengveloper.com/${unit}`);
 		const result = await res.json();
 		return result;
 	};
