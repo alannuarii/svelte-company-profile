@@ -20,7 +20,7 @@
 	];
 </script>
 
-<section id="team" class="team section-bg py-5">
+<section id="team" class="team section-bg py-lg-5 py-4">
 	<div class="container">
 		<div class="row">
 			<div class="text-center mb-4 title">

@@ -34,7 +34,7 @@
 	}
 	@media (max-width: 992px) {
 		#description {
-			margin-bottom: 160px;
+			margin-bottom: 200px;
 		}
 		p{
 			font-size: 22px;

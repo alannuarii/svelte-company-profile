@@ -10,7 +10,7 @@
 	// on:click={()=> window.location.href = `/${i + 1}`}
 </script>
 
-<section id="engine" class="position-relative py-5">
+<section id="engine" class="position-relative py-lg-5 py-4">
 	<div class="text-center mb-4 title">
 		<h1>ENGINES</h1>
 	</div>

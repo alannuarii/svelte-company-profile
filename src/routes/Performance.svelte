@@ -2,7 +2,7 @@
 	import pnp from '$lib/img/pnp.png';
 </script>
 
-<section id="performance" class="performance py-5">
+<section id="performance" class="performance py-lg-5 py-4">
 	<div class="container">
 		<div class="row d-flex justify-content-center text-center">
 			<div class="text-center mb-4 title">

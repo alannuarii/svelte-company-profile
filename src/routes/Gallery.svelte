@@ -11,7 +11,7 @@
 	const photos = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8];
 </script>
 
-<section id="portfolio" class="portfoio py-5">
+<section id="portfolio" class="portfoio py-lg-5 py-4">
 	<div class="text-center mb-4 title">
 		<h1>GALLERY</h1>
 	</div>
