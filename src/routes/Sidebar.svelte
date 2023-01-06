@@ -1,4 +1,4 @@
-<section class="sidebar d-flex align-items-center justify-content-center shadow">
+<section class="sidebar d-flex align-items-center justify-content-center shadow d-lg-block d-none">
 	<ul class="text-center ">
 		<li><a href="/"><i class="bi-house-fill" /></a></li>
 		<li><a href="/#engine"><i class="bi-gear-fill" /></a></li>

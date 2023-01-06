@@ -3,6 +3,21 @@
 	import team2 from '$lib/img/team/team-2.jpg';
 	import team3 from '$lib/img/team/team-3.jpg';
 	import team4 from '$lib/img/team/team-4.jpg';
+
+	const names = [
+		'Bahar Sudrajat',
+		'Vecky Pandeirot',
+		'Febriandy F. Mandagi',
+		'Alan Nuari',
+		'Asep Kusmiadi'
+	];
+	const positions = [
+		'Manager ULPLTD Kotamobagu',
+		'Team Leader Operasi',
+		'Team Leader Pemeliharaan',
+		'Team Leader K3L dan Keamanan',
+		'AE Pemeliharaan'
+	];
 </script>
 
 <section id="team" class="team section-bg py-5">
@@ -11,7 +26,25 @@
 			<div class="text-center mb-4 title">
 				<h1>TEAM</h1>
 			</div>
-			<div class="offset-1 col-lg-10 mt-4 mt-lg-0">
+			{#each names as name, i}
+				<div class="mb-4 d-lg-none">
+					<div class="member d-flex align-items-start">
+						<div class="pic"><img src={team1} class="img-fluid" alt="" /></div>
+						<div class="member-info">
+							<h4>{name}</h4>
+							<span>{positions[i]}</span>
+							<div class="social">
+								<a href="/"><i class="bi-twitter" /></a>
+								<a href="/"><i class="bi-facebook" /></a>
+								<a href="/"><i class="bi-instagram" /></a>
+								<a href="/"> <i class="bi-whatsapp" /> </a>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+
+			<div class="offset-1 col-lg-10 mt-4 mt-lg-0 d-none d-lg-block">
 				<div class="member d-flex align-items-start">
 					<div class="pic"><img src={team1} class="img-fluid" alt="" /></div>
 					<div class="manager">
@@ -24,7 +57,7 @@
 							<a href="/"> <i class="bi-whatsapp" /> </a>
 						</div>
 					</div>
-					<div class="w-50 offset-2">
+					<div class="w-50 offset-2 d-none d-lg-block">
 						<div class="d-flex align-items-start">
 							<div class="picture"><img src={team1} class="img-fluid" alt="" /></div>
 							<div class="member-info">
@@ -160,14 +193,6 @@
 		background: #fff;
 	}
 
-	/* .team .member {
-		position: relative;
-		box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-		padding: 30px;
-		border-radius: 10px;
-		background: #fff;
-	} */
-
 	.team .member .pic {
 		overflow: hidden;
 		width: 180px;
@@ -284,5 +309,19 @@
 
 	.team .member .social-member a + a {
 		margin-left: 8px;
+	}
+
+	@media (max-width: 992px) {
+		.team .member {
+			position: relative;
+			box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+			padding: 30px;
+			border-radius: 10px;
+			background: #fff;
+		}
+
+		.team .member h4 {
+			font-size: 18px;
+		}
 	}
 </style>

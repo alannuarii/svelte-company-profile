@@ -7,9 +7,9 @@
 		<h2>Company <span>Profile</span></h2>
 		<p>PT PLN NUSANTARA POWER ULPLTD KOTAMOBAGU</p>
 	</div>
-	<img src={pnp} class="position-absolute top-0 start-50 translate-middle-x mt-5" alt="" />
+	<img src={pnp} class="position-absolute top-0 start-50 translate-middle-x mt-lg-5 mt-4" alt="" />
 </section>
-<section id="icon-boxes" class="icon-boxes">
+<section id="icon-boxes" class="icon-boxes d-none d-lg-block">
 	<div class="container">
 		<div class="row d-flex justify-content-center text-center">
 			<div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
@@ -83,23 +83,6 @@
 		color: #fff;
 	}
 
-	@media (min-width: 1024px) {
-		#hero p {
-			width: 60%;
-		}
-	}
-
-	@media (max-width: 768px), (max-height: 700px) {
-		#hero {
-			height: 120vh;
-			padding: 100px 0;
-		}
-
-		#hero h2 {
-			font-size: 28px;
-		}
-	}
-
 	.icon-boxes {
 		padding-top: 0;
 		position: relative;
@@ -129,5 +112,30 @@
 		line-height: 28px;
 		margin-bottom: 0;
 		color: #43a6a3;
+	}
+
+	@media (max-width: 992px) {
+		#hero {
+			margin-bottom: 0px;
+			border-radius: 0 0 50px 50px;
+			height: 50vh;
+		}
+		#hero img {
+			width: 50%;
+			z-index: 999;
+		}
+		#hero h2 {
+			color: #fff;
+			margin-top: 220px;
+			margin-bottom: 10px;
+			font-size: 28px;
+			font-weight: 400;
+		}
+
+		#hero p {
+			font-size: 27px;
+			font-weight: 700;
+			color: #fff;
+		}
 	}
 </style>

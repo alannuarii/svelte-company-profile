@@ -4,7 +4,7 @@
 
 <section id="description" class="position-relative">
 	<div class="row pt-5">
-		<div class=" offset-1 col-7">
+		<div class=" offset-lg-1 col-lg-7">
 			<p class="text-center px-5">
 				<span>PT PLN Nusantara Power</span> Unit Layanan Pusat Listrik Tenaga Diesel (ULPLTD) Kotamobagu
 				merupakan unit pembangkit yang terletak di Kota Kotamobagu Sulawesi Utara yang telah beroperasi
@@ -13,7 +13,7 @@
 				Sistem Sulutgo membutuhkan
 			</p>
 		</div>
-		<div class="col">
+		<div class="col d-none d-lg-block">
 			<video autoplay loop muted width="70%" src={map} style="border-radius: 20%" class="shadow" />
 		</div>
 	</div>
@@ -31,5 +31,14 @@
 	span {
 		color: #43a6a3;
 		font-weight: 700;
+	}
+	@media (max-width: 992px) {
+		#description {
+			margin-bottom: 160px;
+		}
+		p{
+			font-size: 22px;
+			line-height: 45px;
+		}
 	}
 </style>

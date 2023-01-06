@@ -8,7 +8,7 @@
 			<div class="text-center mb-4 title">
 				<h1>PERFORMANCE INDICATORS</h1>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">BPP</h4>
 					<p class="length">(Biaya Pokok Produksi)</p>
@@ -16,7 +16,7 @@
 					<p class="unit">Rp/kWh</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">EAF</h4>
 					<p class="length">(Equivalent Availability Factor)</p>
@@ -24,7 +24,7 @@
 					<p class="unit">%</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">EFOR</h4>
 					<p class="length">(Equivalent Force Outage Rate)</p>
@@ -32,7 +32,7 @@
 					<p class="unit">%</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">SOF</h4>
 					<p class="length">(Scheduled Outage Factor)</p>
@@ -40,7 +40,7 @@
 					<p class="unit">%</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">PS</h4>
 					<p class="length">(Pemakaian Sendiri)</p>
@@ -48,7 +48,7 @@
 					<p class="unit">%</p>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-4">
+			<div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-4 mb-lg-4">
 				<div class="icon-box">
 					<h4 class="title">SFC</h4>
 					<p class="length">(Specific Fuel Consumption)</p>

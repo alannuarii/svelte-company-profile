@@ -51,4 +51,10 @@
 	a:hover {
 		background-color: #43a6a3;
 	}
+
+	@media (max-width: 992px) {
+		.image {
+			width: 100%;
+		}
+	}
 </style>

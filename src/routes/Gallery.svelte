@@ -18,7 +18,7 @@
 	<div class="container" data-aos="fade-up">
 		<div class="row portfolio-container">
 			{#each photos as foto}
-				<div class="col-lg-3 col-md-6 portfolio-item filter-app">
+				<div class="col-lg-3 col-md-6 portfolio-item mb-4">
 					<img src={foto} class="img-fluid" alt="" />
 				</div>
 			{/each}
@@ -41,7 +41,7 @@
 	}
 
 	.portfoio .portfolio-item {
-		margin-bottom: 30px;
+		/* margin-bottom: 30px; */
 		overflow: hidden;
 	}
 
