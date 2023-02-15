@@ -12,6 +12,11 @@
 	const units = [unit1, unit2, unit3, unit4, unit5, unit6];
 </script>
 
+<svelte:head>
+	<title>Company Profile</title>
+	<meta name="description" content="Company Profile" />
+</svelte:head>
+
 <main id="main">
 	<!-- ======= Breadcrumbs ======= -->
 	<section id="breadcrumbs" class="breadcrumbs shadow-sm">
