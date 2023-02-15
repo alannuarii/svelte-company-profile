@@ -5,7 +5,8 @@
 <section id="hero" class="d-flex justify-cntent-center align-items-center">
 	<div class="carousel-container position-absolute">
 		<h2>Company <span>Profile</span></h2>
-		<p>PT PLN NUSANTARA POWER ULPLTD KOTAMOBAGU</p>
+		<p>PT PLN NUSANTARA POWER</p>
+		<p>ULPLTD KOTAMOBAGU</p>
 	</div>
 	<img src={pnp} class="position-absolute top-0 start-50 translate-middle-x mt-lg-5 mt-4" alt="" />
 </section>
@@ -78,9 +79,10 @@
 	}
 
 	#hero p {
-		font-size: 60px;
+		font-size: 50px;
 		font-weight: 700;
 		color: #fff;
+		margin: 0px;
 	}
 
 	.icon-boxes {
