@@ -1,11 +1,8 @@
-export const load = ({ fetch, params }) => {
-	const fetchData = async (unit) => {
-		const res = await fetch(`https://pltdktm.anpy.my.id/${unit}`);
-		const result = await res.json();
-		return result;
-	};
-
+export const load = async ({ params }) => {
+	const unit = params.unit;
+	const res = await fetch(`https://pltdktm.anpy.my.id/unit/${unit}`);
+	const data = res.json();
 	return {
-		data: fetchData(params.unit)
+		data
 	};
 };
